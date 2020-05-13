@@ -150,7 +150,7 @@ if(cluster.isMaster){
     /*
      * Express configuration.
      */
-
+    app.set('trust proxy', 'loopback');
     app.set('port', portNumber);
     app.set('views', path.join(__dirname, 'views'));
     app.set('view engine', 'pug');
