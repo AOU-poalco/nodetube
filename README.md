@@ -1,20 +1,13 @@
-# NodeTube
-NodeTube is an open-source YouTube alt that offers video, audio and image uploads, livestreaming and built-in monetization
-
-A live NodeTube instance is available to interact with at [https://newtube.app](https://newtube.app)
-
-You can join the open-source community actively developing NodeTube on [Discord](https://discord.gg/ejGah8H), [Riot.im](https://riot.im/app/#/room/#nodetube:matrix.org) and [Reddit](https://reddit.com/r/nodetube)
+# [Vid8](https://vid8.poal.co)
+is an open-source YouTube alt (powered by NodeTube) that not only offers video, audio and image sharing, but also livestreaming and built-in monetization.
 
 <br>
-
-<a href="https://nodetube.live" />
-<img src="https://user-images.githubusercontent.com/7200471/73618225-630e5d80-45e3-11ea-8772-9f10f5b9ef16.png" width="800" >
 
 ## Get Your Instance Running:
 
 You can get an instance up instantly using one-click deployment with Heroku below:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/mayeaux/nodetube)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/AOU-poalco/nodetube)
 
 ## Running On Your Local Computer
 
@@ -96,23 +89,6 @@ NodeTube has the functionality to act as an authentication app for an nginx-rtmp
 - Plus Badge to show your support
 - Support open-source software with your hard earned money, helping out in a big way to decentralize and open the internet
 - Allow others to receive the benefits of using NodeTube as a free user including not being tracked by a multibillion dollar corporation and receiving their media ad free
-
-## Additional Info
-
-You may also be interested in [videodownloader](https://github.com/mayeaux/videodownloader), a video downloader that supports 110 websites and is powered by Electron and youtube-dl.
-
-Don't forget to join the open-source community developing NodeTube on [Discord](https://discord.gg/ejGah8H), [Riot.im](https://riot.im/app/#/room/#nodetube:matrix.org) and [Reddit](https://reddit.com/r/nodetube)
-
-## Live NodeTube Instances
-
-Domain | Registrations Open 
-:---: | :---: 
-https://newtube.app | Yes 
-https://nullvideo.com| Yes 
-https://videoflicktube.com| Yes 
-https://xchtube.com| Yes 
-https://vid8.poal.co| Yes 
-
 
 License
 -------
