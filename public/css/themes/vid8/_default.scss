@@ -1,0 +1,325 @@
+@import "../../lib/bootstrap-social";
+
+// Buttons
+// -------------------------
+
+.btn {
+  border-radius: 0;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.11), 1px 1px 0 rgba(255, 255, 255, 0.21) inset;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-link {
+  box-shadow: none;
+}
+
+/*.btn-default, .btn-default:focus {
+  background-image: linear-gradient(to bottom, #ffffff 60%, #f8f8f8 100%);
+}*/
+
+// Forms
+// -------------------------
+
+.form-control:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+// Alerts
+// -------------------------
+
+.alert {
+  border-radius: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10);
+}
+
+// Navbar
+// -------------------------
+
+.navbar-default {
+  border: 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+  .navbar-nav {
+    > li > a {
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      transition: all 0.2s linear;
+    }
+  }
+}
+
+
+/* vid8 changes below */
+
+body {
+  color: #939393 !important;
+  background-color: #101010 !important;
+}
+
+.pagination > li > a, .pagination > li > span {
+  color: #ddd;
+  background-color: #313131;
+  border: #000000 solid 1px;
+}
+    
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #4163ac;
+  background-color: #c8c8c8;
+  border-color: #3b3b3b;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  color: #fff;
+  background-color: #4163ac;
+  border-color: #283d6a;
+}
+
+a {
+  color: #4163ac;     
+}
+
+a:hover, a:focus {
+  color: #91a7d6;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4163ac;
+  border-color: #283d6a;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #91a7d6;
+  border-color: #4163ac;
+}
+
+.btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #4163ac;
+  border-color: #283d6a;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #4163ac;
+  border-color: #283d6a;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #91a7d6;
+  border-color: #4163ac;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #4163ac;
+  border-color: #283d6a;
+}
+.btn-default:focus, .btn-default.focus {
+  color: #fff;
+  background-color: #91a7d6;
+  border-color: #4163ac;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #91a7d6;
+  border-color: #4163ac;
+}
+
+textarea {
+  background-color: #333;
+  color: #ddd;
+}
+
+.react {
+  background-color: #222 !important;
+}
+
+.editFileButtons {
+  margin-bottom: 0.5em;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #9f0000;
+  border-color: #952a18;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ddd;
+  background-color: #101010;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ddd;
+  background-color: #4163ac;
+}
+
+.fw a {
+  color: #ddd !important;
+}
+.fw:hover a {
+  color: #fff !important;
+}
+
+.container {
+  padding-left: 1em !important; 
+  padding-right: 1em !important; 
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 100% !important;
+  }
+  .uploads.container {
+    width: 88% !important;
+  }
+}
+
+footer {
+  position: relative !important;
+}
+
+.dropdown-anchors {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+  color: #ddd !important;
+  font-weight:500 !important;
+}
+
+.dropdown-anchors:hover {
+  color: #4163ac !important;
+  background-color: transparent;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+  background-color:#222 !important;
+}
+
+ul.dropdown-menu{
+  background-color:#4163ac !important;
+}
+
+.navbar-right {
+  margin-right: 0px !important;
+}
+
+/* Player */
+
+.plyr__control--overlaid {
+  background: rgba(65, 99, 172, 0.71) !important;
+}
+
+.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true], .plyr__progress--played, .plyr__volume--display {
+  background: #4163ac !important;
+}
+
+.plyr__control--overlaid:focus, .plyr__control--overlaid:hover {
+  background: #00b3ff !important;
+}
+
+.plyr--full-ui input[type=range] {
+  color: #4163ac !important;
+}
+
+.plyr--audio .plyr__controls button.tab-focus:focus, .plyr--audio .plyr__controls button:hover, .plyr__play-large {
+  background: #4163ac !important;
+}
+
+.plyr__progress--played, .plyr__volume--display {
+  color: #4163ac !important;
+}
+
+/* Livechat */
+
+.message-usename {
+  color: #4163ac;
+}
+
+.panel-default {
+  border-color: #545454 !important;
+}
+.panel {
+  background-color: #253862 !important;
+}
+
+.list-group-item {
+  background-color: #1e1e1e !important;
+  border: 1px solid #000 !important;
+  color: #fff !important;
+}
+
+/* Plus User */
+
+.nodetube-pro {
+  background: #1bd81b !important;
+  font-weight: 800 !important;
+  font-size: 16px !important;
+  padding: 0 6px !important;
+  border-radius: 8px !important;
+  transform: 0 !important;
+  color: #000;
+}
+
+/* player */
+
+.change-size-button {
+  display: inline-block !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Small phone thumbnails fix */
+
+@media (max-width: 347px) {
+  .preview-image {
+    transform: translateX(-26%) !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .preview-image {
+    max-width: 100% !important;
+  }
+}
+
+/* Embed player fix (for poal.co expando) */
+
+body {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.plyr {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.plyr__video-wrapper {
+  position: relative;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.plyr audio, .plyr video {
+  width: 100% !important;
+  height: 100% !important;
+}
