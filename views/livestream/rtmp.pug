@@ -204,7 +204,7 @@ block content
                 runInterval()
               }
 
-              messageText = '<b>' + escapeHtml(messagingUsername) + ':</b> ' + escapeHtml(messageText);
+              messageText = '<b class="message-username">' + escapeHtml(messagingUsername) + ':</b> ' + escapeHtml(messageText);
 
               // make sure this username is the username of the streamer
               var onSendMessage = {
