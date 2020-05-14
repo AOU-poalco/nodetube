@@ -7,7 +7,7 @@ is an open-source YouTube alt (powered by NodeTube) that not only offers video, 
 
 You can get an instance up instantly using one-click deployment with Heroku below:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/AOU-poalco/nodetube)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/AOU-poalco/vid8)
 
 ## Running On Your Local Computer
 
